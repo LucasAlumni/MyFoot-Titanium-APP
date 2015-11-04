@@ -1,0 +1,18 @@
+
+".container" : {
+  backgroundColor: '#ffffff'
+},
+
+"Window": {
+    backgroundColor: "#fff",
+    titleColor: "#fff",
+    translucent: 'false',
+    barColor: '#37373F',
+    navTintColor : "#FFFFFF",
+    statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+
+},
+
+"#title_team":{
+     color: '#ecf0f1'
+}

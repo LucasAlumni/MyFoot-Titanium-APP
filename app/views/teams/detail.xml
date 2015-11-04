@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<View layout='vertical'>
+			<Label id="name" />
+		</View>
+		<TitleControl>
+            <Label id="title_team" />
+        </TitleControl>
+	</Window>
+</Alloy>

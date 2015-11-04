@@ -1,0 +1,6 @@
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/com/myfoot/MyfootActivity.java"
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/com/myfoot/MyfootAppInfo.java"
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/com/myfoot/MyfootApplication.java"
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/com/myfoot/R.java"
+"/Users/ShaniX/Desktop/myfoot/build/android/gen/ti/modules/titanium/ui/R.java"

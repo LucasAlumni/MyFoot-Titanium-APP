@@ -1,0 +1,12 @@
+<Alloy>
+	<TableViewRow id="row_match">
+		<!-- <Label id="score_localteam" text="3"/>  --> 
+		<Label id="name_localteam" />
+
+		<Label id="versus" text="VS" />
+
+		<!-- <Label id="score_visitorteam" text="2"/ /> -->
+		<Label id="name_visitorteam" />
+		
+	</TableViewRow>
+</Alloy>

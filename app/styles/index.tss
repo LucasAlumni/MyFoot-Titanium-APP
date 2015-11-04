@@ -1,0 +1,59 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"TabGroup": {
+	tabsBackgroundColor:"#37373F"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#333"
+}
+
+
+"Window": {
+    backgroundColor: "#fff",
+    titleColor: "#fff",
+    translucent: 'false',
+    barColor: '#37373F',
+    statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+
+},
+
+".headerTitle":{
+     color: '#ecf0f1'
+},
+
+"#tab1[platform=ios]": {
+	title: 'Actualité',
+	color: "#fff",
+	icon: ''
+
+}
+
+"#tab1[platform=android]": {
+	title: 'Actualité',
+	color: "#fff",
+}
+
+"#tab2[platform=ios]": {
+	title: 'Classement',
+	color: "#fff"
+}
+
+"#tab2[platform=android]": {
+	title: 'Classement',
+	color: "#fff"
+}
+
+"#tab3[platform=ios]": {
+	title: 'Live Match',
+	color: "#fff"
+}
+
+"#tab2[platform=android]": {
+	title: 'Live Match',
+	Color: '#fff'
+}

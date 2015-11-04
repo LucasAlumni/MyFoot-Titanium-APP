@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"com.mattmcfarland.fontawesome":"1.5.1"},"apiServer":"http://football-api.com/api/","api":{"teamList":"?Action=standings&APIKey=b1b58843-d058-955c-5edcae14653a&comp_id=1204","news":"?Action=fixtures&APIKey=b1b58843-d058-955c-5edcae14653a&comp_id=1204&match_date=24.10.2015"}};

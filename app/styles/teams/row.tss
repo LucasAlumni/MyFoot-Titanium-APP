@@ -1,0 +1,23 @@
+
+"#name" : {
+	left: 10,
+  	color: "#000",
+  	height: 80,
+  	font: {
+        fontSize: '20dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}
+
+"#position" : {
+	right: 10,
+  	color: "#000",
+  	font: {
+        fontSize: '20dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}

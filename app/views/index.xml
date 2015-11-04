@@ -1,0 +1,29 @@
+<Alloy>
+	<TabGroup >
+        <Tab id="tab1">
+            <Window id="win1">
+               <TableView id="tableNews"/>
+               <TitleControl>
+                    <Label class="headerTitle">Actualité</Label>
+                </TitleControl>
+            </Window>
+        </Tab>
+        <Tab id="tab2">
+        	<!-- Require src="classenent" / -->
+            <Window id="win2">
+                <TableView id="table"/>
+                <TitleControl>
+                    <Label class="headerTitle">Classement</Label>
+                </TitleControl>
+            </Window>    
+        </Tab>
+        <Tab id="tab3">
+            <Window id="win3">
+                <Label id="label3">Pas de match aujourd'hui.</Label>
+                <TitleControl>
+                    <Label class="headerTitle">Live Match</Label>
+                </TitleControl>
+            </Window>
+        </Tab>
+    </TabGroup>
+</Alloy>

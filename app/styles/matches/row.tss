@@ -1,0 +1,46 @@
+"#name_localteam" : {
+	left: 10,
+  	font: {
+        fontSize: '20dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}
+"#score_localteam" : {
+  	color: "green",
+  	font: {
+        fontSize: '32dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}
+"#versus" : {
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	height:80,
+  	font: {
+        fontSize: '30dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}
+"#name_visitorteam" : {
+  	right:10,
+  	font: {
+        fontSize: '20dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}
+"#score_visitorteam" : {
+  	color: "red",
+  	font: {
+        fontSize: '32dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
+
+}

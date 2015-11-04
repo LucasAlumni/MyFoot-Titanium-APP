@@ -1,0 +1,401 @@
+
+Wed Nov 04 2015 10:37:06 GMT+0100 (CET)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.10.36
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 4.0.1
+
+Titanium SDK
+  SDK Version                 = 5.0.2.GA
+  SDK Path                    = /Users/ShaniX/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/ShaniX/.appcelerator/install/4.1.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build -p ios --plugin-paths /Users/ShaniX/.appcelerator/install/4.1.3/package/node_modules --config-file /var/folders/0d/31jyck9s1152rl_f7vx117680000gn/T/build-1446629821798.json --log-level info --no-banner
+
+[TRACE]  [ioslib] No iOS Simulator UDID specified, searching for best match
+[TRACE]  [ioslib] Scanning Xcodes: 7.0:7A220
+[TRACE]  [ioslib] No app being installed, so picking first simulator
+[TRACE]  [ioslib] Autoselected iOS Simulator: iPhone 6s Plus
+[TRACE]  [ioslib]   UDID    = A2A6413D-8D20-454B-A503-C05175616EE0
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0
+[INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
+[DEBUG]  Detecting modules in /Users/ShaniX/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/ShaniX/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/ShaniX/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/ShaniX/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/ShaniX/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/ShaniX/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/ShaniX/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.3.3 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.3
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/ShaniX/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/ShaniX/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detecting plugins in /Users/ShaniX/Desktop/myfoot/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/ShaniX/Desktop/myfoot/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/ShaniX/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /Users/ShaniX/Library/Application Support/Titanium/plugins/com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/ShaniX/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.0
+[INFO]   Building for iOS Simulator: iPhone 6s Plus
+[DEBUG]  UDID: A2A6413D-8D20-454B-A503-C05175616EE0
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.0
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/ShaniX/Desktop/myfoot/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/ShaniX/.appcelerator/install/4.1.3/package/node_modules/appc-cli-titanium/node_modules/.bin/alloy compile /Users/ShaniX/Desktop/myfoot/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.6.2 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/ShaniX/Desktop/myfoot
+[DEBUG]  app path = /Users/ShaniX/Desktop/myfoot/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {"com.mattmcfarland.fontawesome":"1.5.1"}
+[INFO]    [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]    "dependencies": {
+[DEBUG]      "com.mattmcfarland.fontawesome": "1.5.1"
+[DEBUG]    },
+[DEBUG]    "apiServer": "http://football-api.com/api/",
+[DEBUG]    "api": {
+[DEBUG]      "teamList": "?Action=standings&APIKey=b1b58843-d058-955c-5edcae14653a&comp_id=1204",
+[DEBUG]      "news": "?Action=fixtures&APIKey=b1b58843-d058-955c-5edcae14653a&comp_id=1204&match_date=24.10.2015"
+[DEBUG]    },
+[DEBUG]    "sourcemap": true,
+[DEBUG]    "autoStyle": false,
+[DEBUG]    "adapters": [
+[DEBUG]      "localStorage",
+[DEBUG]      "properties",
+[DEBUG]      "sql"
+[DEBUG]    ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[TRACE]  * controllers
+[DEBUG]  Removing orphaned assets and libs...
+[TRACE]  * iphone/com.mattmcfarland.fontawesome
+[TRACE]  * iphone/fonts/com.mattmcfarland.fontawesome
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/ShaniX/.appcelerator/install/4.1.3/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy.js --> Resources/iphone/alloy.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/ShaniX/.appcelerator/install/4.1.3/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/ShaniX/Desktop/myfoot/app/assets
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/ShaniX/Desktop/myfoot/app/lib
+[TRACE]  Copying SRC_DIR/test.js --> Resources/iphone/test.js
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[DEBUG]    map:        "/Users/ShaniX/Desktop/myfoot/build/map/Resources/iphone/test.js.map"
+[TRACE]  
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [widget.xml] com.mattmcfarland.fontawesome view processing...
+[INFO]     view:       "widget.xml"
+[INFO]     controller: "widget.js"
+[TRACE]  WIDGET_SRC=app/widgets/com.mattmcfarland.fontawesome-master/assets
+[TRACE]  Copying .DS_Store --> Resources/iphone/com.mattmcfarland.fontawesome/.DS_Store...
+[TRACE]  Copying fonts/FontAwesome.ttf --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf...
+[TRACE]  Copying fonts/LICENSE --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/LICENSE...
+[TRACE]  Copying fonts/README!!.md --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/README!!.md...
+[TRACE]   
+[TRACE]  WIDGET_SRC=app/widgets/com.mattmcfarland.fontawesome-master/lib
+[TRACE]  Copying icons.js --> Resources/iphone/com.mattmcfarland.fontawesome/icons.js...
+[TRACE]  Copying icons.js.orig --> Resources/iphone/com.mattmcfarland.fontawesome/icons.js.orig...
+[TRACE]   
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js.map"
+[INFO]     created:     "Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js"
+[INFO]   [index.xml] view processing...
+[INFO]     style:      "index.tss"
+[INFO]     view:       "index.xml"
+[INFO]     controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [matches/match_detail.xml] view processing...
+[INFO]     style:      "matches/match_detail.tss"
+[INFO]     view:       "matches/match_detail.xml"
+[INFO]     controller: "matches/match_detail.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/matches/match_detail.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/matches/match_detail.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/matches/match_detail.js"
+[INFO]   [matches/row.xml] view processing...
+[INFO]     style:      "matches/row.tss"
+[INFO]     view:       "matches/row.xml"
+[INFO]     controller: "matches/row.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/matches/row.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/matches/row.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/matches/row.js"
+[INFO]   [teams/detail.xml] view processing...
+[INFO]     style:      "teams/detail.tss"
+[INFO]     view:       "teams/detail.xml"
+[INFO]     controller: "teams/detail.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/teams/detail.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/teams/detail.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/teams/detail.js"
+[INFO]   [teams/row.xml] view processing...
+[INFO]     style:      "teams/row.tss"
+[INFO]     view:       "teams/row.xml"
+[INFO]     controller: "teams/row.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/teams/row.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/teams/row.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/teams/row.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/test.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/com.mattmcfarland.fontawesome/icons.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[TRACE]   
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [0.97318s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 0.97318s
+[INFO]   Alloy compiler completed successfully
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/myfoot.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/myfoot.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/myfoot_Prefix.pch
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/myfoot.xcodeproj/xcshareddata/xcschemes/myfoot.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/debugger.plist
+[DEBUG]  Skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-60.png, skipping
+[DEBUG]  Found valid app icon Resources/iphone/appicon-60@2x.png (120x120)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-60@3x.png (180x180)
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72@2x.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-50.png, skipping
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small.png (29x29)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small@2x.png (58x58)
+[DEBUG]  Unsupported app icon Resources/iphone/appicon@2x.png, skipping
+[TRACE]  Found generated 87x87 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[DEBUG]  Copying resources
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/com.mattmcfarland.fontawesome/icons.js.orig => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/com.mattmcfarland.fontawesome/icons.js.orig
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/fonts/com.mattmcfarland.fontawesome/LICENSE => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/fonts/com.mattmcfarland.fontawesome/LICENSE
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/fonts/com.mattmcfarland.fontawesome/README!!.md => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/fonts/com.mattmcfarland.fontawesome/README!!.md
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/iTunesArtwork
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/iTunesArtwork@2x
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/CFG.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/CFG.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/app.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/app.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/backbone.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/constants.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/BaseController.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/index.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/matches/match_detail.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/matches/match_detail.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/matches/row.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/matches/row.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/teams/detail.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/teams/detail.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/controllers/teams/row.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/controllers/teams/row.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/styles/index.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/styles/matches/match_detail.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/styles/matches/match_detail.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/styles/matches/row.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/styles/matches/row.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/styles/teams/detail.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/styles/teams/detail.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/styles/teams/row.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/styles/teams/row.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/sync/localStorage.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/sync/properties.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/sync/sql.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/underscore.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/widget.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/alloy.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/alloy.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/com.mattmcfarland.fontawesome/icons.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/com.mattmcfarland.fontawesome/icons.js
+[DEBUG]  Overwriting /Users/ShaniX/Desktop/myfoot/Resources/iphone/test.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/test.js
+[DEBUG]  Overwriting /Users/ShaniX/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 3s 281ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s Plus
+[TRACE]  [ioslib]   UDID    = A2A6413D-8D20-454B-A503-C05175616EE0
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0
+[TRACE]  [ioslib] Removing old log file: /Users/ShaniX/Library/Developer/CoreSimulator/Devices/A2A6413D-8D20-454B-A503-C05175616EE0/data/Containers/Data/Application/818BABF4-8B50-425B-B196-C94C7C46B5E2/Documents/86292fd4-3f2f-4b63-9777-ab812e49b069.log
+[TRACE]  [ioslib] Tailing iPhone 6s Plus Simulator system log: /Users/ShaniX/Library/Logs/CoreSimulator/A2A6413D-8D20-454B-A503-C05175616EE0/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown A2A6413D-8D20-454B-A503-C05175616EE0
+[TRACE]  [ioslib] iPhone 6s Plus Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID A2A6413D-8D20-454B-A503-C05175616EE0
+[TRACE]  [ioslib] iPhone 6s Plus Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/ShaniX/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6s Plus Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install A2A6413D-8D20-454B-A503-C05175616EE0 /Users/ShaniX/Desktop/myfoot/build/iphone/build/Products/Debug-iphonesimulator/myfoot.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch A2A6413D-8D20-454B-A503-C05175616EE0 com.myfoot
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/ShaniX/Library/Developer/CoreSimulator/Devices/A2A6413D-8D20-454B-A503-C05175616EE0/data/Containers/Data/Application/0829EC05-CCE6-433E-82A1-88D22C38F597/Documents/86292fd4-3f2f-4b63-9777-ab812e49b069.log
