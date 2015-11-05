@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/AsyncUdpSocket.m \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/AsyncUdpSocket.h
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/AsyncUdpSocket.m \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/AsyncUdpSocket.h

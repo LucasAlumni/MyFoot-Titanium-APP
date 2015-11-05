@@ -1,1 +1,2 @@
-dependencies: /Users/ShaniX/Desktop/myfoot/build/iphone/main.m
+dependencies: \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/main.m

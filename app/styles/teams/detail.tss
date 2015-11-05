@@ -15,4 +15,39 @@
 
 "#title_team":{
      color: '#ecf0f1'
+},
+
+"#form_team": {
+	height: 40,
+	layout: "horizontal"
+},
+
+"#point_team": {
+	height: 40,
+	layout: "horizontal"
+},
+
+"#day_team": {
+	height: 40,
+	layout: "horizontal"
+},
+
+"#promo_team": {
+	height: 40,
+	layout: "horizontal"
+},
+
+"#country_team": {
+	height: 40,
+	layout: "horizontal"
+},
+
+"#name": {
+	color: "green",
+	left: 25,
+  	font: {
+        fontSize: '32dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    }
 }

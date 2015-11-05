@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiUICanvasViewProxy.m
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiUICanvasViewProxy.m

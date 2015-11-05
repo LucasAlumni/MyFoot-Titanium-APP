@@ -1,7 +1,25 @@
 <Alloy>
 	<Window class="container">
-		<View layout='vertical'>
-			<Label id="name" />
+		<View layout="vertical">
+			<View id="form_team">
+				<Label text="Recent Form :" />
+				<Label id="name" />
+			</View>
+			<View id="day_team">
+				<Label text="Journée du Championnat :" />
+				<Label id="day" />
+			</View>
+			<View id="point_team">
+				<Label text="Nombre de points :" />
+				<Label id="number" />
+			</View>
+			<View id="country_team">
+				<Label text="Pays :" />
+				<Label id="country" />
+			</View>
+			<View id="promo_team">
+				<Label id="promo" />
+			</View>
 		</View>
 		<TitleControl>
             <Label id="title_team" />

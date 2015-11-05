@@ -1,11 +1,11 @@
 dependencies: \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiMediaVideoPlayerProxy.m \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiMediaVideoPlayerProxy.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiViewProxy.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiProxy.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiEvaluator.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/KrollContext.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiToJS.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiMediaVideoPlayerProxy.m \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiMediaVideoPlayerProxy.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiViewProxy.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiProxy.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiEvaluator.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/KrollContext.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiToJS.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -13,36 +13,36 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/KrollCallback.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/KrollObject.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiBase.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiThreading.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiPublicAPI.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiUIView.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiAnimation.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiPoint.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiDimension.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiColor.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/ListenerEntry.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiModule.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiUtils.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/WebFont.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiFile.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiBuffer.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiBlob.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/LayoutConstraint.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiGradient.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiRect.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiViewTemplate.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiMediaVideoPlayer.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/Webcolor.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiMediaAudioSession.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiApp.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiHost.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/Bridge.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiStylesheet.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/KrollBridge.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/XHRBridge.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiRootViewController.h \
-  /Users/ShaniX/Desktop/myfoot/build/iphone/Classes/TiControllerProtocols.h
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/KrollCallback.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/KrollObject.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiBase.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiThreading.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiPublicAPI.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiUIView.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiAnimation.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiPoint.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiDimension.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiColor.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/ListenerEntry.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiModule.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiUtils.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/WebFont.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiFile.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiBuffer.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiBlob.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/LayoutConstraint.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiGradient.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiRect.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiViewTemplate.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiMediaVideoPlayer.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/Webcolor.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiMediaAudioSession.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiApp.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiHost.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/Bridge.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiStylesheet.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/KrollBridge.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/XHRBridge.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiRootViewController.h \
+  /Users/ShaniX/Desktop/myfoot/MyFoot-Titanium-APP/build/iphone/Classes/TiControllerProtocols.h

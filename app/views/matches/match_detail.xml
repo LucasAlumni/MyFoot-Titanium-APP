@@ -1,37 +1,45 @@
 <Alloy>
 	<Window class="container">
 		<View layout='vertical'>
-			<Label id="scorevisitor" /> 
-			<Label id="scorelocal" />
-
+			<Label text="Résultat du match" />
+			<View id="test" layout="horizontal">
+				<Label id="scoreLocal" />
+				<Label class="line1" id="scoreVisitor" /> 
+			</View>
+			<View id="test1" layout="horizontal">
+				<Label id="nameLocal" />
+				<Label id="nameVisitor" /> 
+			</View>
 			<ListView id="list" id="elementsList" defaultItemTemplate="elementTemplate">
 				<Templates>
 			        <ItemTemplate name="elementTemplate">
 			            <Label bindId="symbol" id="symbol" />
-			            <View id="atomProperties">
-			                <Label bindId="name" id="name" />
+			            <View id="actionProperties">
+			                <Label bindId="eventType" id="eventType" />
 			                <View id="secondLine">
-			                	<Label class="line2 fieldLabel" text="Joueur: " />
-			                    <Label class="line2" bindId="number" id="number" />
-			                	<Label class="line2 fieldLabel" text="Minutes: " />
-			                    <Label class="line2" bindId="mass" id="mass" />
+			                	<Label class="line2 fieldLabel" text="Joueur : " />
+			                    <Label class="line2" bindId="player" id="player" />
 			                </View>
 			            </View>
-						<ImageView bindId="image" id="image" />
 			        </ItemTemplate>
 			    </Templates>
-		       <ListSection>
-	                <!-- Sets ListSection's headerView property -->
+		       	<ListSection>
 	                <HeaderView>
 	                    <View backgroundColor="#DDD" height="Ti.UI.SIZE">
 	                        <Label>Actions du match</Label>
 	                    </View>>
 	                </HeaderView>
 
-	                <ListItem symbol:text="H" symbol:color="#090" name:text="But" number:text="35MN" mass:text="Tocardinoh"/>
-					<ListItem symbol:text="He" symbol:color="#090" name:text="Carton Jaune" number:text="50MN" mass:text="Messi c'estpossible"/>
-    				<ListItem symbol:text="Li" name:text="Penalti" number:text="90mn" mass:text="MARCEL LE THON"/>
-	                <!-- Sets ListSection's footerView property -->
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+	                <ListItem symbol:text="30'" eventType:text="BUT" player:text="Coucou c'est Jacki" />
+					
+				
+	               
 	                <!-- <FooterView>
 	                 
 

@@ -19,6 +19,36 @@
 	color: "#333"
 },
 
+"#test": {
+    height: 40,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+
+"#scoreLocal": {
+    left: 30,
+    font: { fontSize: 34, fontWeight: 'bold' }
+},
+
+"#scoreVisitor": {
+    left: 230,
+    font: { fontSize: 34, fontWeight: 'bold' }
+},
+
+"#nameLocal": {
+    left: 20,
+    font: { fontSize: 18, fontWeight: 'bold' }
+},
+
+"#nameVisitor": {
+    left: 150,
+    font: { fontSize: 18, fontWeight: 'bold' }
+},
+
+"#test1": {
+    height: 20,
+  
+},
+
 "#symbol": {
     left: 15,
     color: "black",
@@ -27,20 +57,24 @@
 "#symbol[platform=android]": {
     left: 0
 }
-"#atomProperties": {
+"#actionProperties": {
     top: 0, left: 80, right: 0, bottom: 0,
     layout: "vertical"
 },
-"#atomProperties[platform=android]": {
+"#actionProperties[platform=android]": {
     left: 65
 },
-"#name": {
+"#eventType": {
     left: 0, top: 4,
     color: "black",
     textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
     font: { fontSize: 16 }
 },
 "#secondLine": {
+    left: 0, right: 0,
+    layout: "horizontal"
+},
+"#score": {
     left: 0, right: 0,
     layout: "horizontal"
 },
@@ -54,6 +88,6 @@
     width: 30,
     color: 'red'
 },
-"#mass": {
+"#player": {
     color: "blue"
 }

@@ -39,23 +39,78 @@ function Controller() {
         id: "__alloyId7"
     });
     $.__views.match_detail.add($.__views.__alloyId7);
-    $.__views.scorevisitor = Ti.UI.createLabel({
+    $.__views.__alloyId8 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#333",
-        id: "scorevisitor"
+        text: "Résultat du match",
+        id: "__alloyId8"
     });
-    $.__views.__alloyId7.add($.__views.scorevisitor);
-    $.__views.scorelocal = Ti.UI.createLabel({
+    $.__views.__alloyId7.add($.__views.__alloyId8);
+    $.__views.test = Ti.UI.createView({
+        height: 40,
+        textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+        id: "test",
+        layout: "horizontal"
+    });
+    $.__views.__alloyId7.add($.__views.test);
+    $.__views.scoreLocal = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#333",
-        id: "scorelocal"
+        left: 30,
+        font: {
+            fontSize: 34,
+            fontWeight: "bold"
+        },
+        id: "scoreLocal"
     });
-    $.__views.__alloyId7.add($.__views.scorelocal);
-    var __alloyId8 = {};
-    var __alloyId11 = [];
-    var __alloyId12 = {
+    $.__views.test.add($.__views.scoreLocal);
+    $.__views.scoreVisitor = Ti.UI.createLabel({
+        width: Ti.UI.SIZE,
+        height: Ti.UI.SIZE,
+        color: "#333",
+        left: 230,
+        font: {
+            fontSize: 34,
+            fontWeight: "bold"
+        },
+        id: "scoreVisitor"
+    });
+    $.__views.test.add($.__views.scoreVisitor);
+    $.__views.test1 = Ti.UI.createView({
+        height: 20,
+        id: "test1",
+        layout: "horizontal"
+    });
+    $.__views.__alloyId7.add($.__views.test1);
+    $.__views.nameLocal = Ti.UI.createLabel({
+        width: Ti.UI.SIZE,
+        height: Ti.UI.SIZE,
+        color: "#333",
+        left: 20,
+        font: {
+            fontSize: 18,
+            fontWeight: "bold"
+        },
+        id: "nameLocal"
+    });
+    $.__views.test1.add($.__views.nameLocal);
+    $.__views.nameVisitor = Ti.UI.createLabel({
+        width: Ti.UI.SIZE,
+        height: Ti.UI.SIZE,
+        color: "#333",
+        left: 150,
+        font: {
+            fontSize: 18,
+            fontWeight: "bold"
+        },
+        id: "nameVisitor"
+    });
+    $.__views.test1.add($.__views.nameVisitor);
+    var __alloyId9 = {};
+    var __alloyId12 = [];
+    var __alloyId13 = {
         type: "Ti.UI.Label",
         bindId: "symbol",
         properties: {
@@ -70,14 +125,14 @@ function Controller() {
             bindId: "symbol"
         }
     };
-    __alloyId11.push(__alloyId12);
-    var __alloyId13 = {
+    __alloyId12.push(__alloyId13);
+    var __alloyId14 = {
         type: "Ti.UI.View",
         childTemplates: function() {
-            var __alloyId14 = [];
-            var __alloyId15 = {
+            var __alloyId15 = [];
+            var __alloyId16 = {
                 type: "Ti.UI.Label",
-                bindId: "name",
+                bindId: "eventType",
                 properties: {
                     width: Ti.UI.SIZE,
                     height: Ti.UI.SIZE,
@@ -88,43 +143,16 @@ function Controller() {
                     font: {
                         fontSize: 16
                     },
-                    bindId: "name"
+                    bindId: "eventType"
                 }
             };
-            __alloyId14.push(__alloyId15);
-            var __alloyId16 = {
+            __alloyId15.push(__alloyId16);
+            var __alloyId17 = {
                 type: "Ti.UI.View",
                 childTemplates: function() {
-                    var __alloyId17 = [];
-                    var __alloyId19 = {
-                        type: "Ti.UI.Label",
-                        properties: {
-                            width: Ti.UI.SIZE,
-                            height: Ti.UI.SIZE,
-                            color: "#999",
-                            font: {
-                                fontSize: 10
-                            },
-                            text: "Joueur: "
-                        }
-                    };
-                    __alloyId17.push(__alloyId19);
+                    var __alloyId18 = [];
                     var __alloyId20 = {
                         type: "Ti.UI.Label",
-                        bindId: "number",
-                        properties: {
-                            width: 30,
-                            height: Ti.UI.SIZE,
-                            color: "red",
-                            font: {
-                                fontSize: 10
-                            },
-                            bindId: "number"
-                        }
-                    };
-                    __alloyId17.push(__alloyId20);
-                    var __alloyId22 = {
-                        type: "Ti.UI.Label",
                         properties: {
                             width: Ti.UI.SIZE,
                             height: Ti.UI.SIZE,
@@ -132,13 +160,13 @@ function Controller() {
                             font: {
                                 fontSize: 10
                             },
-                            text: "Minutes: "
+                            text: "Joueur : "
                         }
                     };
-                    __alloyId17.push(__alloyId22);
-                    var __alloyId23 = {
+                    __alloyId18.push(__alloyId20);
+                    var __alloyId21 = {
                         type: "Ti.UI.Label",
-                        bindId: "mass",
+                        bindId: "player",
                         properties: {
                             width: Ti.UI.SIZE,
                             height: Ti.UI.SIZE,
@@ -146,11 +174,11 @@ function Controller() {
                             font: {
                                 fontSize: 10
                             },
-                            bindId: "mass"
+                            bindId: "player"
                         }
                     };
-                    __alloyId17.push(__alloyId23);
-                    return __alloyId17;
+                    __alloyId18.push(__alloyId21);
+                    return __alloyId18;
                 }(),
                 properties: {
                     left: 0,
@@ -158,8 +186,8 @@ function Controller() {
                     layout: "horizontal"
                 }
             };
-            __alloyId14.push(__alloyId16);
-            return __alloyId14;
+            __alloyId15.push(__alloyId17);
+            return __alloyId15;
         }(),
         properties: {
             top: 0,
@@ -169,102 +197,143 @@ function Controller() {
             layout: "vertical"
         }
     };
-    __alloyId11.push(__alloyId13);
-    var __alloyId24 = {
-        type: "Ti.UI.ImageView",
-        bindId: "image",
-        properties: {
-            bindId: "image"
-        }
-    };
-    __alloyId11.push(__alloyId24);
-    var __alloyId10 = {
+    __alloyId12.push(__alloyId14);
+    var __alloyId11 = {
         properties: {
             name: "elementTemplate"
         },
-        childTemplates: __alloyId11
+        childTemplates: __alloyId12
     };
-    __alloyId8["elementTemplate"] = __alloyId10;
-    $.__views.__alloyId28 = Ti.UI.createView({
+    __alloyId9["elementTemplate"] = __alloyId11;
+    $.__views.__alloyId25 = Ti.UI.createView({
         backgroundColor: "#DDD",
         height: Ti.UI.SIZE,
-        id: "__alloyId28"
+        id: "__alloyId25"
     });
-    $.__views.__alloyId29 = Ti.UI.createLabel({
+    $.__views.__alloyId26 = Ti.UI.createLabel({
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#333",
         text: "Actions du match",
-        id: "__alloyId29"
+        id: "__alloyId26"
     });
-    $.__views.__alloyId28.add($.__views.__alloyId29);
-    var __alloyId30 = [];
+    $.__views.__alloyId25.add($.__views.__alloyId26);
+    var __alloyId27 = [];
+    $.__views.__alloyId28 = {
+        symbol: {
+            text: "30'"
+        },
+        eventType: {
+            text: "BUT"
+        },
+        player: {
+            text: "Coucou c'est Jacki"
+        },
+        properties: {
+            id: "__alloyId28"
+        }
+    };
+    __alloyId27.push($.__views.__alloyId28);
+    $.__views.__alloyId29 = {
+        symbol: {
+            text: "30'"
+        },
+        eventType: {
+            text: "BUT"
+        },
+        player: {
+            text: "Coucou c'est Jacki"
+        },
+        properties: {
+            id: "__alloyId29"
+        }
+    };
+    __alloyId27.push($.__views.__alloyId29);
+    $.__views.__alloyId30 = {
+        symbol: {
+            text: "30'"
+        },
+        eventType: {
+            text: "BUT"
+        },
+        player: {
+            text: "Coucou c'est Jacki"
+        },
+        properties: {
+            id: "__alloyId30"
+        }
+    };
+    __alloyId27.push($.__views.__alloyId30);
     $.__views.__alloyId31 = {
         symbol: {
-            text: "H",
-            color: "#090"
+            text: "30'"
         },
-        name: {
-            text: "But"
+        eventType: {
+            text: "BUT"
         },
-        number: {
-            text: "35MN"
-        },
-        mass: {
-            text: "Tocardinoh"
+        player: {
+            text: "Coucou c'est Jacki"
         },
         properties: {
             id: "__alloyId31"
         }
     };
-    __alloyId30.push($.__views.__alloyId31);
+    __alloyId27.push($.__views.__alloyId31);
     $.__views.__alloyId32 = {
         symbol: {
-            text: "He",
-            color: "#090"
+            text: "30'"
         },
-        name: {
-            text: "Carton Jaune"
+        eventType: {
+            text: "BUT"
         },
-        number: {
-            text: "50MN"
-        },
-        mass: {
-            text: "Messi c'estpossible"
+        player: {
+            text: "Coucou c'est Jacki"
         },
         properties: {
             id: "__alloyId32"
         }
     };
-    __alloyId30.push($.__views.__alloyId32);
+    __alloyId27.push($.__views.__alloyId32);
     $.__views.__alloyId33 = {
         symbol: {
-            text: "Li"
+            text: "30'"
         },
-        name: {
-            text: "Penalti"
+        eventType: {
+            text: "BUT"
         },
-        number: {
-            text: "90mn"
-        },
-        mass: {
-            text: "MARCEL LE THON"
+        player: {
+            text: "Coucou c'est Jacki"
         },
         properties: {
             id: "__alloyId33"
         }
     };
-    __alloyId30.push($.__views.__alloyId33);
-    $.__views.__alloyId25 = Ti.UI.createListSection({
-        headerView: $.__views.__alloyId28,
-        id: "__alloyId25"
+    __alloyId27.push($.__views.__alloyId33);
+    $.__views.__alloyId34 = {
+        symbol: {
+            text: "30'"
+        },
+        eventType: {
+            text: "BUT"
+        },
+        player: {
+            text: "Coucou c'est Jacki"
+        },
+        properties: {
+            id: "__alloyId34"
+        }
+    };
+    __alloyId27.push($.__views.__alloyId34);
+    $.__views.__alloyId22 = Ti.UI.createListSection({
+        headerView: $.__views.__alloyId25,
+        id: "__alloyId22"
     });
-    $.__views.__alloyId25.items = __alloyId30;
-    var __alloyId34 = [];
-    __alloyId34.push($.__views.__alloyId25);
+    $.__views.__alloyId22.items = __alloyId27;
+    var __alloyId35 = [];
+    __alloyId35.push($.__views.__alloyId22);
     $.__views.elementsList = Ti.UI.createListView({
-        sections: __alloyId34,
-        templates: __alloyId8,
+        sections: __alloyId35,
+        templates: __alloyId9,
         id: "elementsList",
         defaultItemTemplate: "elementTemplate"
     });
@@ -272,8 +341,32 @@ function Controller() {
     exports.destroy = function() {};
     _.extend($, $.__views);
     var args = arguments[0] || {};
-    $.scorevisitor.text = args.matche.match_visitorteam_score;
-    $.scorelocal.text = args.matche.match_localteam_score;
+    $.scoreVisitor.text = args.matche.match_visitorteam_score;
+    $.nameVisitor.text = args.matche.match_visitorteam_name;
+    $.scoreLocal.text = args.matche.match_localteam_score;
+    $.nameLocal.text = args.matche.match_localteam_name;
+    var events = args.matche.match_events;
+    console.log(events);
+    var data = [];
+    _.each(events, function(element) {
+        data.push({
+            symbol: {
+                text: element.event_minute
+            },
+            eventType: {
+                text: element.event_type
+            },
+            player: {
+                text: element.event_player
+            },
+            properties: {
+                eventId: element.event_id,
+                accessoryType: Ti.UI.LIST_ACCESSORY_TYPE_NONE
+            }
+        });
+    });
+    console.log(data);
+    $.elementsList.sections[0].setItems(data);
     _.extend($, exports);
 }
 
