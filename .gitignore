@@ -1,0 +1,6 @@
+.project
+.settings
+build/*
+build.log
+tmp
+Resources/*
